@@ -64,9 +64,10 @@ nav ul li a {
 }
 /*section styling*/
 section{
-    padding: 70%;
-    width: 80%;
     margin: auto;
+    padding: 5%;
+    width: 80%;
+    
 }
 /*for heading */
 h2{
@@ -88,6 +89,12 @@ p{
 #about{
     background-color: #fff;
     border-bottom: 2px;
+    
+}
+#about title{
+    font-size: medium;
+    align-items: center;
+    text-align: right;
 }
 #about p{
     max-width: 800%;
