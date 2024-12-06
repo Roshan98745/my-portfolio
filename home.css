@@ -36,11 +36,13 @@ header .nav{
 header h1{
     font-size:xx-large;
     letter-spacing: 3px;
+    
 }
 /*nav bar paragraph*/
 header p{
     font-size: medium;
     letter-spacing: 3px;
+    color: #ccc;
 }
 /*nav unlisted*/
 nav ul {
@@ -121,5 +123,14 @@ p{
     font-size: 1.3rem;
     color: black;
     margin-bottom: 20%;
+}
+
+.project-card .project-links {
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+}
+.project-card .project-links a:hover{
+    color: blue;
 }
 
