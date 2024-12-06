@@ -98,4 +98,28 @@ p{
     background-color: #fff;
     padding-bottom: 50%;
 }
+.project-card{
+    border: 2% solid #ccc;
+    padding: 20%;
+    display: inline-block;
+    margin-right: 20%;
+    background-color: azure;
+    border-radius: 10%;
+    transition: all 0.3s ease;
+}
+.project-card:hover{
+    transform: translateY(10px);
+    box-shadow: 0 12px 20px rgba(red, green, blue);
+}
+.project-card h3{
+    margin-bottom: 10%;
+    font-size: medium;
+    font-weight: 600;
+    color: rgb(64, 98, 62);
+}
+.project-card p{
+    font-size: 1.3rem;
+    color: black;
+    margin-bottom: 20%;
+}
 
