@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+/*body style*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: normal;
+    background-color: rgba(106, 130, 154, 0.133);
+    padding-top: 60pox; /*to avoid coverig content*/
+}
+/*header section*/
+header{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+
+}
+/*nav*/
+header .nav{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+    width: 90%;
+    margin: 0 auto;
+  
+}
+/*nav bar heading*/
+header h1{
+    font-size:xx-large;
+    letter-spacing: 3px;
+}
+/*nav bar paragraph*/
+header p{
+    font-size: medium;
+    letter-spacing: 3px;
+}
+/*nav unlisted*/
+nav ul {
+    list-style: none;
+    display: flex;
+}
+/*nav listed*/
+nav li{
+    margin-left: 20px;
+}
+/*for nav bar text */
+
+nav ul li a {
+    
+   text-decoration:dashed ;
+     color: aliceblue;
+     font-size: 120%;
+
+}
+/*section styling*/
+section{
+    padding: 70%;
+    width: 80%;
+    margin: auto;
+}
+/*for heading */
+h2{
+    font-size: x-large;
+    width: 40%;
+    text-align: center;
+    color: black;
+    text-align: center;
+
+}
+p{
+    font-size: medium;
+    text-align: center;
+    text-decoration: dotted;
+    color: black;
+    text-height: 1.2rem; 
+}
