@@ -82,4 +82,20 @@ p{
     color: black;
     text-shadow: 10%;
 }
+/*about section*/
+#about{
+    background-color: #fff;
+    border-bottom: 2px;
+}
+#about p{
+    max-width: 800%;
+    margin: auto;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+/*project section*/
+#project{
+    background-color: #fff;
+    padding-bottom: 50%;
+}
 
